@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                          // Specify ECMAScript target version
+      "module": "commonjs",                     // Specify module code generation
+      "strict": true,                           // Enable all strict type-checking options
+      "esModuleInterop": true,                  // Enable esModuleInterop
+      "skipLibCheck": true,                     // Skip type checking of declaration files
+      "forceConsistentCasingInFileNames": true  // Ensure file names are case-sensitive
+    },
+    "include": ["src/**/*"],                     // Include all TypeScript files in src folder
+    "exclude": ["node_modules"]                  // Exclude node_modules folder
+  }
+  
